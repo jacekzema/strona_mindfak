@@ -163,3 +163,52 @@ nav .menu ul li a
 
 }
 
+.socialmedia a
+{
+    text-decoration: none;
+    color: white;
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding-top: 1em; 
+}
+
+.socialmedia .fb
+{
+    height: 200px;
+    background-color: #3b5998;
+    text-align: center;
+    
+}
+
+.socialmedia .sc
+{
+    height: 200px;
+    background-color: #FF7700;
+    text-align: center;
+    
+}
+
+.socialmedia .yt
+{
+    height: 200px;
+    background-color: #FF0000;
+    text-align: center;
+    
+}
+
+.socialmedia .spotify
+{
+    height: 200px;
+    background-color: #6AE368;
+    text-align: center;
+    
+}
+
+.socialmedia .insta
+{
+    height: 200px;
+    background-color: #ded1c1;
+    text-align: center;
+    
+}
