@@ -170,7 +170,8 @@ nav .menu ul li a
     display: block;
     height: 100%;
     width: 100%;
-    padding-top: 1em; 
+    padding-top: 1em;
+    -webkit-transition: color 0.3s ease-in-out;
 }
 
 .socialmedia .fb
@@ -178,31 +179,64 @@ nav .menu ul li a
     height: 200px;
     background-color: #3b5998;
     text-align: center;
+    -webkit-transition: background-color 0.3s ease-in-out ;
     
+}
+
+.socialmedia .fb:hover a
+{
+    background-color: #4c6aa9;
+    color: black;
+
 }
 
 .socialmedia .sc
 {
     height: 200px;
-    background-color: #FF7700;
+    background-color: #ff7700;
     text-align: center;
+    -webkit-transition: background-color 0.3s ease-in-out;
+
     
+}
+
+.socialmedia .sc:hover a
+{
+    background-color: #ff8811;
+    color: black;
+
 }
 
 .socialmedia .yt
 {
     height: 200px;
-    background-color: #FF0000;
+    background-color: #ff0000;
     text-align: center;
+    -webkit-transition: background-color 0.3s ease-in-out;
     
+}
+
+.socialmedia .yt:hover a
+{
+    background-color: #ff1111;
+    color: black;
+
 }
 
 .socialmedia .spotify
 {
     height: 200px;
-    background-color: #6AE368;
+    background-color: #6ae368;
     text-align: center;
+    -webkit-transition: background-color 0.3s ease-in-out;
     
+}
+
+.socialmedia .spotify:hover a
+{
+    background-color: #7bf479;
+    color: black;
+
 }
 
 .socialmedia .insta
@@ -210,5 +244,13 @@ nav .menu ul li a
     height: 200px;
     background-color: #ded1c1;
     text-align: center;
+    -webkit-transition: background-color 0.3s ease-in-out;
     
+}
+
+.socialmedia .insta:hover a
+{
+    background-color: #efe2e2;
+    color: black;
+
 }
