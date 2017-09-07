@@ -140,7 +140,7 @@ nav .menu ul li a
     display: block;
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 1000px;
     height: 100%;
     text-decoration: none;
     color: white;
@@ -163,6 +163,20 @@ nav .menu ul li a
 
 }
 
+.content
+{  
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.socialmedia
+{
+    -webkit-transition: color 0.3s ease-in-out;   
+}
+
 .socialmedia a
 {
     text-decoration: none;
@@ -174,21 +188,29 @@ nav .menu ul li a
     -webkit-transition: color 0.3s ease-in-out;
 }
 
+.socialmedia a:hover
+{
+    color:black;
+}
+
+
 .socialmedia .fb
 {
     height: 200px;
     background-color: #3b5998;
     text-align: center;
-    -webkit-transition: background-color 0.3s ease-in-out ;
+    transition: all 0.3s ease-in-out;
+    //-webkit-transition: all 3s ease-in-out;
     
 }
 
-.socialmedia .fb:hover a
+.socialmedia .fb:hover
 {
     background-color: #4c6aa9;
     color: black;
 
 }
+
 
 .socialmedia .sc
 {
@@ -200,10 +222,10 @@ nav .menu ul li a
     
 }
 
-.socialmedia .sc:hover a
+.socialmedia .sc:hover
 {
     background-color: #ff8811;
-    color: black;
+
 
 }
 
@@ -216,7 +238,7 @@ nav .menu ul li a
     
 }
 
-.socialmedia .yt:hover a
+.socialmedia .yt:hover
 {
     background-color: #ff1111;
     color: black;
@@ -232,10 +254,9 @@ nav .menu ul li a
     
 }
 
-.socialmedia .spotify:hover a
+.socialmedia .spotify:hover
 {
     background-color: #7bf479;
-    color: black;
 
 }
 
@@ -244,13 +265,71 @@ nav .menu ul li a
     height: 200px;
     background-color: #ded1c1;
     text-align: center;
-    -webkit-transition: background-color 0.3s ease-in-out;
+    -webkit-transition: background-color 3s ease-in-out;
     
 }
 
-.socialmedia .insta:hover a
+.socialmedia .insta:hover
 {
     background-color: #efe2e2;
-    color: black;
 
+}
+
+footer
+{
+    padding-top: 0.2em;
+    text-align: center;
+    height: 40px;
+    background-color: #000000;
+    
+}
+
+
+.video-container {
+
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    width: 100%;
+
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 560px) {
+
+    .content
+    {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .video-container {
+
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 0;
+        height: 322px;
+        width: 100%;
+        
+
+    }
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+        position: relative;
+        width: 560px;
+        height: 315px;
+        border-top-width: 0px;
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 0px;
+}
 }
